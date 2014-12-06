@@ -2,8 +2,9 @@
   "name": "hoopy-christmas",
   "version": "0.0.1",
   "description": "a christmas song generator",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
+    "start": "./src/bin/www",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,17 @@
   "bugs": {
     "url": "https://github.com/ajacksified/hoopy-christmas/issues"
   },
-  "homepage": "https://github.com/ajacksified/hoopy-christmas"
+  "homepage": "https://github.com/ajacksified/hoopy-christmas",
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.3.3",
+    "debug": "~2.0.0",
+    "express": "^4.10.4",
+    "hbs": "~2.7.0",
+    "less-middleware": "1.0.x",
+    "markov": "0.0.7",
+    "morgan": "~1.3.0",
+    "serve-favicon": "~2.1.3",
+    "underscore": "^1.7.0"
+  }
 }
